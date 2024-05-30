@@ -73,18 +73,19 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 
 This protocol is for amplifying the internal transcribed spacer 1 (ITS1) gene in eukaryotes. The primers (forward: White ITS1 F, reverse: Pn-ITS1R) were first presented in White et al. 1990 (forward) and Sterling et al. 2022 (reverse). The target amplicon size is 235–370 base pairs.
 
-This primer set targets diatom species within the genus *Pseudo-nitzschia*. Important note, this primer also amplifies non-target organisms including other single-celled phytoplankton (Sterling et al. 2022).
+This primer set targets *Pseudo-nitzschia* spp. diatoms. Important note, this primer also amplifies non-target organisms including other single-celled phytoplankton (Sterling et al. 2022).
 
 The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product. 
 
 ## Method description and rationale
 
-This protocol was chosen because it successfully identifies *Pseudo-nitzschia* diatom species and has been used to generate marine diatom eDNA time series. Our protocol uses the same primers as Sterling et al. 2022. Our protocol uses the same polymerase and thermocycling conditions as MMARINeDNA 12S MiFish protocol, but is 25 µL in total reaction volume. We intentionally chose this protocol to facilitate identification of *Pseudo-nitzschia* diatom species from PMEL OME eDNA time series.
+This protocol was chosen because it successfully identifies *Pseudo-nitzschia* diatom species and has been used to generate successful marine diatom eDNA time series. Our protocol uses the same primers as Sterling et al. 2022. Our protocol uses the same polymerase and thermocycling conditions as MMARINeDNA 12S MiFish protocol, but is 25 µL in total reaction volume. We intentionally chose this protocol to facilitate identification of *Pseudo-nitzschia* diatom species from PMEL OME eDNA time series.
 
 
 ## Spatial coverage and environment(s) of relevance
 
-This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from Northeastern Pacific coastal stations off the western coast of North America (primarily off California, Oregon, Washington,and Alaska).
+
+This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ## Personnel Required
 
