@@ -61,7 +61,7 @@ nucl_acid_amp: https://doi.org/10.5281/zenodo.11398148
 pcr_cond: initial denaturation:98_0.5;normal_cycling;denaturation:98_0.17;annealing:60_0.5;elongation:72_0.75;final elongation:72_10;35
 annealingTemp: 60
 pcr_cycles: 35
-pcr_analysis_software: missing':' not provided
+pcr_analysis_software: "missing: not provided"
 pcr_method_additional: Quality was validated via confirmation of a product on a gel.
 ---
 
