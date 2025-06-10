@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 170
 personnel_required: 1
 language: en
-issued: 2025-05-29
+issued: 2025-06-10
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -103,7 +103,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP.md | 1.0.0 | 2025-06-04 | Internal  |
 |Sterling et al. 2022 Appendix S1  | ttps://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12189)|   1.0      | 2022-10-07     | External  |
 
 ### Protocol Revision Record
@@ -117,6 +117,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
+| 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
 
 ### Acronyms and Abbreviations
 
@@ -138,6 +139,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE    | Personal protective equipment |
+|UV| Ultraviolet|
 |UW| University of Washington|
 |WC-OBON|West Coast Ocean Biomolecular Observing Network|
 
@@ -274,7 +276,7 @@ For a 96-well Plate:
 
 | Reagent |Volume (μL) per plate| Volume (μL) per reaction | Intial concentration| Final concentration|
 | ----- | ----- | ----- |----- |----- |
-| 2X Phusion Master Mix |1300| 12.5 |100% |50% |
+| 2X Phusion Master Mix |1300| 12.5 |200% |100% |
 | Forward Primer |130| 1.25|10 μM |0.5 μM |
 | Reverse Primer |130|1.25 |10 μM | 0.5 μM |
 | DMSO|78 | 0.75|100%|3% |
