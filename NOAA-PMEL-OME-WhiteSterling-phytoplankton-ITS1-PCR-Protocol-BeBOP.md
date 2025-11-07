@@ -4,10 +4,10 @@ methodology_category: Omics analysis
 project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
 purpose: PCR [OBI:0000415]
 analyses: PCR [OBI:0000415]
-geographic_location: 'North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]'
-broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
-environmental_medium: sea water [ENVO:00002149]
+geographic_location: 'North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], Lake Washington [GAZ:00008722]'
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], freshwater lake biome [ENVO:01000252], estuary [ENVO:00000045]
+environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 target: internal transcribed spacer region [SO:0000639]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989]
@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 170
 personnel_required: 1
 language: en
-issued: 2025-06-10
+issued: 2025-011-06
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -103,7 +103,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP.md | 1.0.0 | 2025-06-04 | Internal  |
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol | https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Gel_Electrophoresis_Protocol_BeBOP.md | 1.0.1 | 2025-11-06 | Internal  |
 |Sterling et al. 2022 Appendix S1  | ttps://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12189)|   1.0      | 2022-10-07     | External  |
 
 ### Protocol Revision Record
@@ -118,6 +118,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
 | 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
+| 1.2.1 | 2025-11-06 | Clarified safety guidelines, added freshwater reference, and negative control language |
 
 ### Acronyms and Abbreviations
 
@@ -147,10 +148,10 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Extraction blank  | Extraction negative control. Typically nuclease-free water or an empty filter is run through the DNA extraction process to control for contamination in the DNA extraction step. |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water is run through a filter like a seawater eDNA sample to control for contamination in the field sampling step. |
-| No template control | PCR negative control. Typically nuclease-free water is loaded in place of a sample on a PCR to control for contamination in the PCR step. |
-| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community is loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
+| Extraction blank  | Extraction negative control. Typically, nuclease-free water or an empty filter is run through the DNA extraction process to control for contamination in the DNA extraction step. |
+| Field blank  | Sampling negative control. Typically, distilled or reverse osmosis water is run through a filter like a seawater eDNA sample to control for contamination in the field sampling step. |
+| No template control | PCR negative control. Typically, nuclease-free water is loaded in place of a sample on a PCR to control for contamination in the PCR step. |
+| Positive control  | PCR positive control. Typically, a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community is loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 ## BACKGROUND
 
@@ -168,7 +169,7 @@ This protocol was chosen because it successfully identifies *Pseudo-nitzschia* d
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to amplify extracted DNA from thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to amplify extracted DNA from thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea, and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska), as well as freshwater samples from the freshwater Lake Washington. Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
@@ -176,7 +177,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-This protocol does not involve any hazardous chemicals, although standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to chemical reagents.
+This protocol uses bleach and ethanol, both of which are classified as hazardous chemicals. Appropriate PPE must be worn, and standard safety procedures should be followed to avoid skin and eye exposure.
 
 ### Training Requirements
 
@@ -301,23 +302,23 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 **Step-by-Step Instructions:**
 
-*Note: When possible, PCR set-up should be carried out in a separate pre-PCR space that is distinct from where the post-PCR space where thermocyclers are located, and all post-PCR processing is performed. No equipment, consumables, or reagents should be shared between pre- and post-PCR spaces with a unidirectional flow of sample processing.*
+*Note: When possible, PCR set-up should be carried out in a separate pre-PCR space that is distinct from the post-PCR space where thermocyclers are located, and all post-PCR processing is performed. No equipment, consumables, or reagents should be shared between pre- and post-PCR spaces with a unidirectional flow of sample processing.*
 
 1. Set out primers and positive control to thaw.
 2. Vortex and spin down thawed positive control, primers, and nuclease-free water. Then tap/flick AmpliTaq rather than vortexing before spinning down. Thawed reagents should be stored in a cooling block or fridge when not in use.
-3. Pool reagents to make final master mix, as denoted in the reagent mixture table.
+3. Pool reagents to make the final master mix, as denoted in the reagent mixture table.
 4. Set out the template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
 6. Add 2 μL DNA template to each well (See [WhiteSterling phytoplankton ITS1 PCR Draft Protocol Sheet](https://docs.google.com/spreadsheets/d/15mxKM89S4NEhiMFIIUo3bYfYfHoavNpf0fki1TN-LCs/edit#gid=0)), but reserve two wells for the positive control and a no template control (NTC). 
-7. To one well each, add 2 μL of the positive control and 2 μL of nuclease-free water for the NTC.
+7. To one well, add 2 μL of the positive control. To another well, add 2 μL of nuclease-free water for the NTC.
 8. Seal the PCR plate with foil.
-9. Spin down the plate, and then transport in cooler blocks before placing in the thermocycler.
+9. Spin down the plate, and then transport it in cooler blocks before placing it in the thermocycler.
 10.  Run thermocycler protocol.
 
 ### Quality control
 
-1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 months, while -80˚C is ideal for long-term storage.
-2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBO pending]
+1. Plates should be removed from the thermocycler after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 months, while -80˚C is ideal for long-term storage.
+2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-Gel-Electrophoresis-Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Gel_Electrophoresis_Protocol_BeBOP.md)
 
 #### Positive Control
 A positive control is used in every PCR run to verify the success of the PCR reaction. 2μL of positive control diluted to 10^3 copies/µL is used in place of template DNA. One well per plate is allotted for the positive control. The positive control used for WhiteSterling phytoplankton ITS1 is the Antarctic freshwater diatom *Luticola ventricosa*. The reference sequence used to develop the positive control sequence can be found on GenBank: [Accession KY863469.1](https://www.ncbi.nlm.nih.gov/nuccore/KY863469.1)
@@ -328,21 +329,33 @@ A positive control is used in every PCR run to verify the success of the PCR rea
 
 #### Negative Control
 
-Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is allotted to an NTC. NTCs should be run in addition to both field blanks and extraction blanks.
+Nuclease-free water is used as a no-template control (NTC) when setting up each PCR plate. One well per plate is allotted to an NTC. NTCs should be run in addition to both field blanks and extraction blanks.
 
 ### Basic Troubleshooting Guide
 
-**Issue 1**: Streaking is observed for sample wells in the gel, but the positive control band appears normal. 
+***Issue 1**: Streaking is observed for sample wells in the gel, but the positive control band appears normal. 
 
 **Solution**: Dilute the sample DNA to a 1:10 dilution with nuclease-free water. If smearing is still observed using a 1:10 dilution, dilute the DNA samples further to a 1:100 dilution. If the samples do not amplify under these conditions, the sample is likely inhibited or has too little target DNA and thus is unlikely to yield valuable results. Alternative solutions include cleaning DNA extractions with a commercial cleanup kit.
 
 **Issue 2**: No bands were observed in the PCR, including the positive control.
 
-**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired and rerun the PCR. If positive control fails again, the reagents or positive control are likely compromised. 
+**Solution**: The PCR likely failed. Check reagents to confirm they were not mishandled or expired, and rerun the PCR. If the positive control fails again, the reagents or the positive control are likely compromised. 
 
-**Issue 3**: Band observed in no template control.
+**Issue 3**: Band observed in the no-template control.
 
-**Solution**: The PCR was likely contaminated. Sterilize lab space thoroughly and rerun with new aliquots of reagents.
+**Solution**: The PCR was likely contaminated - toss the plate. Sterilize lab space thoroughly and rerun with new aliquots of reagents.
+
+**Issue 4**: Band observed for either the field blank or the extraction blank.
+
+**Solution**: The product should be sent for sequencing to determine the severity of contamination.
+
+**Issue 5**: Low volume post-PCR
+
+**Solution**: If using strip-caps, ensure they are tightly fitting on wells. Any gap in the lid will allow for some volume to evaporate during the PCR process on the thermal cycler. If using PCR plate seals, spin down the plate after taking it off the thermal cycler to ensure all condensation is drawn back into the well.
+
+**Issue 6**: Weak Amplification
+
+**Solution**: If there are weak amplification bands on the gel, ensure the master mix and DNA are being fully mixed. You can also increase the concentration of primers or tweak the PCR process on the thermal cycler (increasing # of cycles of PCR or optimizing the annealing temperature).
 
 ## REFERENCES
 
