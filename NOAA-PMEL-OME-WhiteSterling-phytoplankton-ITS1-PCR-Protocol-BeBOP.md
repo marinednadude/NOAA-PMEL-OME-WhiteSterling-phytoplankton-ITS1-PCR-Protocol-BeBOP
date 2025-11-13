@@ -29,7 +29,7 @@ inhibition_check: not applicable
 thermocycler: Applied Biosystems Veriti 96-well thermal cycler
 assay_name: ITS1_sterling
 assay_validation: The assay has been validated through multi-step in-silico, in-vitro, and in-situ validations. In addition to repeat analysis with alternate assays and intra/inter species tests. See BeBOP for citations.
-targetTaxonomicAssay: nternal transcribed spacer 1 (ITS1) gene sequencing using primers White ITS1 F and Pn-ITS1R
+targetTaxonomicAssay: Internal transcribed spacer 1 (ITS1) gene sequencing using primers White ITS1 F and Pn-ITS1R
 targetTaxonomicScope: Pseudo-nitzschia spp. diatoms and other single-celled phytoplankton
 target_gene: ITS
 target_subfragment: ITS1
