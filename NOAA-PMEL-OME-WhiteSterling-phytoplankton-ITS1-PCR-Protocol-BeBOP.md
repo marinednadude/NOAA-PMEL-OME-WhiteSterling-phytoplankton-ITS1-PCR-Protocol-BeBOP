@@ -18,7 +18,7 @@ language: en
 issued: 2025-011-06
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.2.1
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -49,7 +49,7 @@ probeQuencher: not applicable
 probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
-commercial_mm: AmpliTaq Gold Fast PCR Master Mix
+commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer (NEB - M0531L)
 custom_mm: PCR reactions were run in 25 μL reaction volumes, with 2 μL of DNA, 12.5 μL of 2X Phusion Master Mix, 6.625 μL of water, 0.625 μL rAlbumin, 0.75 μL DMSO, and 1.25 uL of each primer (10 μM).
 block_seq: not applicable
 block_ref: not applicable
@@ -118,7 +118,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
 | 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
-| 1.2.1 | 2025-11-06 | Clarified safety guidelines, added freshwater reference, and negative control language |
+| 1.2.1 | 2025-11-14 | Clarified safety guidelines, added freshwater reference, and negative control language |
 
 ### Acronyms and Abbreviations
 
