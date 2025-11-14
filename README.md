@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398141.svg)](https://doi.org/10.5281/zenodo.11398141)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17612263.svg)](https://doi.org/10.5281/zenodo.17612263)
 
 See [NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP.md) for detailed protocol.  
 
