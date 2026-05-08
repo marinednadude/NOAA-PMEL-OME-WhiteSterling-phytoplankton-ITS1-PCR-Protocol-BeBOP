@@ -34,10 +34,10 @@ targetTaxonomicScope: Pseudo-nitzschia spp. diatoms and other single-celled phyt
 target_gene: ITS
 target_subfragment: ITS1
 ampliconSize: 235–370
-pcr_primer_forward: White ITS1 F
-pcr_primer_reverse: Pn-ITS1R
-pcr_primer_name_forward: TCCGTAGGTGAACCTGCGG
-pcr_primer_name_reverse: CATCCACCGCTGAAAGTTGTAA
+pcr_primer_forward: TCCGTAGGTGAACCTGCGG
+pcr_primer_reverse: CATCCACCGCTGAAAGTTGTAA
+pcr_primer_name_forward: White ITS1 F
+pcr_primer_name_reverse: Pn-ITS1R
 pcr_primer_reference_forward: https://doi.org/10.1002/lno.12189
 pcr_primer_reference_reverse: https://msafungi.org/wp-content/uploads/2019/03/February-2013-Inoculum.pdf
 pcr_primer_vol_forward: 1.25
